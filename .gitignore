@@ -1,0 +1,24 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.csproj.user
+
+# EF Core
+*.db
+*.sqlite
+
+# Frontend
+node_modules/
+taskboard-client/build/
+
+# Environment / secrets
+appsettings.Development.json
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
